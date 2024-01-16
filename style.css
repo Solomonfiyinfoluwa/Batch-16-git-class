@@ -1,10 +1,52 @@
-.{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    font-family: Arial;
 
+.nav{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    background-color: #000;
+}
+.text{
+    text-align: justify;
+    width: auto;
+    height: auto;
+    margin: 20px;
+    color: white;
+
+
+}
+.list-items ul{
+    display: flex;
+}
+.list-items li{
+    list-style: none;
+    margin: 25px 25px 14px 25px;
+    color: white;
+}
+.intro{
+    text-align: center;
+}
+.intro h1{
+    color: #000;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.intro p{
+    color: #000;
+    margin-bottom: 10px;
+    
+}
+.btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: #3a3737;
+    border: 1px solid #3a3b2f;
+    color: #ffff;
+    font-size: 10px;
+    border-radius: 30px;
 }
